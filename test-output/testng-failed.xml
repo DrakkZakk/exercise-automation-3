@@ -6,6 +6,7 @@
       <class name="execution.TestCase">
         <methods>
           <include name="beforeTest"/>
+          <include name="afterTest"/>
           <include name="testCase"/>
         </methods>
       </class> <!-- execution.TestCase -->

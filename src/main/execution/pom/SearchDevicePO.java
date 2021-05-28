@@ -72,4 +72,9 @@ public class SearchDevicePO extends CreateBrowser {
 		return this;
 	}
 	
+	public SearchDevicePO quitBrowser() {
+		setup.closeBrowser();
+		return this;
+	}
+	
 }

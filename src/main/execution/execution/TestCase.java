@@ -41,6 +41,6 @@ public class TestCase {
 	 
 	 @AfterTest
 	 public void afterTest() {
-		 
+		 search.quitBrowser();
 	 }
 }

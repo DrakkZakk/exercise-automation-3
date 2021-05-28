@@ -79,4 +79,9 @@ public class SetUp {
 		Assert.assertEquals(expected, element.getText());
 		num++;
 	}
+	
+	public void closeBrowser() {
+		driver.close();
+	}
+	
 }
